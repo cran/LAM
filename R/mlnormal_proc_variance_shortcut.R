@@ -1,3 +1,5 @@
+## File Name: mlnormal_proc_variance_shortcut.R
+## File Version: 0.37
 
 ##########################################################################
 # process data for shortcuts in variance estimation

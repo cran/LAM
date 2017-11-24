@@ -27,7 +27,15 @@ and (if necessary) a corresponding dataset.
 
 
 
+------------------------------------------------------------------------
+VERSIONS LAM 0.1  |  2017-11-24  |  Last: LAM 0.1-22
+------------------------------------------------------------------------
 
+NOTE  * added example 3 in 'amh' which was transferred from the STARTS
+        package to the LAM package
+
+DATA  * included/modified datasets: ---
+EXAMP * included/modified examples: amh (3)
 
 ------------------------------------------------------------------------
 VERSIONS LAM 0.0  |  2017-05-11  |  Last: LAM 0.0-17

@@ -1,3 +1,5 @@
+## File Name: mlnormal_proc.R
+## File Version: 0.30
 
 ###############################################################
 # preprocessing for mlnormal function

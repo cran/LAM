@@ -1,3 +1,5 @@
+## File Name: mlnormal_update_beta_XVX_R.R
+## File Version: 0.02
 
 ################################################################
 # update beta

@@ -1,6 +1,8 @@
+## File Name: mlnormal_matrix2list.R
+## File Version: 0.03
 
 
-mlnormalMatrix2List <- function( G , mat , freq_id ){
+mlnormal_matrix2list <- function( G , mat , freq_id ){
 	matlist <- as.list(1:G)
 	for (gg in 1:G){
 		ind_gg <- seq( freq_id[ gg , "start"] , freq_id[ gg , "end"] )

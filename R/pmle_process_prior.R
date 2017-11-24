@@ -1,3 +1,5 @@
+## File Name: pmle_process_prior.R
+## File Version: 0.17
 
 ###########################################################
 pmle_process_prior <- function( prior , pars ){

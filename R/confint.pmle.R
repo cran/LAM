@@ -1,3 +1,5 @@
+## File Name: confint.pmle.R
+## File Version: 0.03
 
 ###########################################
 # confidence interval

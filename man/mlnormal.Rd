@@ -1,3 +1,6 @@
+%% File Name: mlnormal.Rd
+%% File Version: 0.40
+
 \name{mlnormal}
 \alias{mlnormal}
 \alias{summary.mlnormal}

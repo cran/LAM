@@ -1,3 +1,5 @@
+## File Name: amh_sampling.R
+## File Version: 0.18
 
 ##################################################
 # sampling step in amh routine

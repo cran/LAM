@@ -1,3 +1,5 @@
+## File Name: mlnormal_update_control_list.R
+## File Version: 0.02
 
 mlnormal_update_control_list <- function(control, control0)
 {

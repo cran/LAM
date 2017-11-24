@@ -1,3 +1,5 @@
+## File Name: mlnormal_update_beta_iterations_penalty.R
+## File Version: 0.08
 
 
 mlnormal_update_beta_iterations_penalty <- function(beta , prior_args , XVX , XVY,

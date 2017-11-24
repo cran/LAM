@@ -1,3 +1,5 @@
+## File Name: pmle.R
+## File Version: 0.21
 
 #######################################################
 # penalized maximum likelihood estimation
@@ -10,7 +12,7 @@ pmle <- function( data , nobs , pars , model ,  prior ,
 	CALL <- match.call()
 				
 	#*** convert prior if needed
-	res <- pmle_process_prior( prior , pars )	
+	res <- pmle_process_prior( prior=prior , pars=pars )	
 	prior <- res$prior
 	dens <- res$dens
 	

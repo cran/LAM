@@ -1,3 +1,5 @@
+## File Name: mlnormal_update_theta_ml.R
+## File Version: 1.04
 
 ###################################################
 # update theta

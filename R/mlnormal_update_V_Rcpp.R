@@ -1,3 +1,5 @@
+## File Name: mlnormal_update_V_Rcpp.R
+## File Version: 0.09
 
 ###################################################################
 # update matrix V and its inverse

@@ -46,6 +46,7 @@ importFrom(sirt, mcmc_derivedPars)
 importFrom(sirt, mcmc_summary)
 importFrom(sirt, parmsummary_extend)
 importFrom(sirt, prior_model_parse)
+importFrom(sirt, soft_thresholding)
 
 
 #***************************************************

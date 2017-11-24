@@ -1,3 +1,6 @@
+%% File Name: LAM-package.Rd
+%% File Version: 0.07
+
 \name{LAM-package}
 \alias{LAM-package}
 \alias{LAM}

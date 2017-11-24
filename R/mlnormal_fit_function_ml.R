@@ -1,3 +1,5 @@
+## File Name: mlnormal_fit_function_ml.R
+## File Version: 0.20
 
 
 mlnormal_fit_function_ml <- function( id_list , V1_list , G , N , yresid ,

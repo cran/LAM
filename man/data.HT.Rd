@@ -1,3 +1,6 @@
+%% File Name: data.HT.Rd
+%% File Version: 0.04
+
 \name{data.HT}
 \alias{data.HT}
 \alias{data.HT12}
@@ -46,7 +49,6 @@ data(data.HT12)
 %% }
 
 \source{
-http://www2.hawaii.edu/~ltabata/HeckThomas2008/, 
 https://www.routledge.com/An-Introduction-to-Multilevel-Modeling-Techniques-MLM-and-SEM-Approaches/Heck-Thomas/p/book/9781848725522
 }
 

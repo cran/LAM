@@ -1,3 +1,6 @@
+%% File Name: loglike_mvnorm.Rd
+%% File Version: 0.16
+
 \name{loglike_mvnorm}
 \alias{loglike_mvnorm}
 %- Also NEED an '\alias' for EACH other topic documented here.

@@ -1,3 +1,5 @@
+## File Name: amh_posterior.R
+## File Version: 0.02
 amh_posterior <- function( pars , model , prior , data){
 	#*** evaluate likelihood
 	ll <- amh_loglike( model=model, data=data , pars=pars)

@@ -1,3 +1,5 @@
+## File Name: confint.mlnormal.R
+## File Version: 0.02
 
 ###########################################
 # confidence interval

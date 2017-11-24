@@ -1,3 +1,5 @@
+## File Name: mlnormal_process_prior.R
+## File Version: 0.13
 
 #############################################################
 # processing prior distributions

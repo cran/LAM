@@ -1,3 +1,5 @@
+## File Name: logLik.pmle.R
+## File Version: 0.02
 
 logLik.pmle <- function (object, ...) {
     # extract log-likelihood

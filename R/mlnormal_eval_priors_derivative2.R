@@ -1,3 +1,5 @@
+## File Name: mlnormal_eval_priors_derivative2.R
+## File Version: 0.02
 
 mlnormal_eval_priors_derivative2 <- function( pars , prior , h )
 {	

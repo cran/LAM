@@ -1,3 +1,5 @@
+## File Name: summary.pmle.R
+## File Version: 0.18
 
 #############################################################
 summary.pmle <- function( object , digits=3 , file=NULL ,... ){
@@ -53,13 +55,15 @@ summary.pmle <- function( object , digits=3 , file=NULL ,... ){
 	cat("Parameter Summary \n")	
 
 	obji <- object$pmle_summary
+	
 	NO <- ncol(obji)
 	for (vv in c( 2:(NO) ) ){
 		obji[,vv] <- round( obji[,vv] , digits )
-		}
+	}
 	rownames(obji) <- NULL
 	print(obji)
 	invisible(obji)
+	
 	# close sink
     CDM::csink( file = file )		
 	

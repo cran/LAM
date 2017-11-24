@@ -1,3 +1,5 @@
+## File Name: logLik.amh.R
+## File Version: 0.02
 
 logLik.amh <- function (object, ...) {
     # extract log-likelihood

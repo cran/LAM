@@ -1,3 +1,5 @@
+## File Name: confint.amh.R
+## File Version: 0.02
 
 ###########################################
 # confidence interval

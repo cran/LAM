@@ -1,3 +1,5 @@
+## File Name: mlnormal_linear_regression_bayes.R
+## File Version: 0.02
 
 
 mlnormal_linear_regression_bayes <- function( W , beta , W2 , mu2 )

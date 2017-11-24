@@ -1,3 +1,5 @@
+## File Name: mlnormal_postproc_eval_posterior.R
+## File Version: 0.03
 
 mlnormal_postproc_eval_posterior <- function(ll , beta , theta ,
 	prior_args, REML )

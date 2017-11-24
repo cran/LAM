@@ -1,3 +1,5 @@
+## File Name: mlnormal_update_beta_XVX_Rcpp.R
+## File Version: 0.11
 
 ################################################################
 # update beta

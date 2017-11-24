@@ -1,3 +1,5 @@
+## File Name: mlnormal_update_theta_newton_step.R
+## File Version: 0.03
 
 mlnormal_update_theta_newton_step <- function( theta , der , theta_infomat ,
 	control_theta )
@@ -10,7 +12,6 @@ mlnormal_update_theta_newton_step <- function( theta , der , theta_infomat ,
 	theta <- theta + theta_diff	
 	theta <- as.vector(theta)
 	#--- output
-	res <- list( theta = theta , Hinv = Hinv , 
-				theta_infomat = theta_infomat )	
+	res <- list( theta = theta, Hinv = Hinv, theta_infomat = theta_infomat )	
 	return(res)		
 }

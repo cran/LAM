@@ -1,3 +1,5 @@
+## File Name: mlnormal_information_matrix_reml.R
+## File Version: 0.10
 
 #############################################################
 # compute information matrix under REML

@@ -1,3 +1,5 @@
+## File Name: mlnormal_adjust_numdiff_parameter.R
+## File Version: 0.02
 
 mlnormal_adjust_numdiff_parameter <- function( h , pars ){
     #** select h parameters according to size of parameters

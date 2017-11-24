@@ -1,3 +1,5 @@
+## File Name: mlnormal_soft_thresholding.R
+## File Version: 0.11
 
 
 mlnormal_soft_thresholding <- function( x , lambda )

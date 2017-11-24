@@ -1,3 +1,5 @@
+## File Name: mlnormal_abs_approx.R
+## File Version: 0.02
 
 mlnormal_abs_approx <- function(x , eps = 1E-4, deriv = 0)
 {

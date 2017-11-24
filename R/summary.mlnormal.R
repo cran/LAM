@@ -1,6 +1,9 @@
+## File Name: summary.mlnormal.R
+## File Version: 0.18
 #*******************************************************
 # Summary for mlnormal object
-summary.mlnormal <- function( object , digits = 4 , file=NULL , ...){
+summary.mlnormal <- function( object , digits = 4 , file=NULL , ...)
+{
 
     # open sink
     CDM::osink( file = file , suffix = paste0( "__SUMMARY.Rout") )
@@ -8,6 +11,7 @@ summary.mlnormal <- function( object , digits = 4 , file=NULL , ...){
 	cat("-----------------------------------------------------------------\n")
     d1 <- utils::packageDescription("LAM")
 	cat( paste( d1$Package , " " , d1$Version , " (" , d1$Date , ")" , sep="") , "\n\n" )	
+	
 	cat( "Date of Analysis:" , paste( object$s2 ) , "\n" )
 	cat("Computation Time:" , print(object$s2 - object$s1), "\n\n")
 	
@@ -70,12 +74,12 @@ summary.mlnormal <- function( object , digits = 4 , file=NULL , ...){
 	excl <- c("parm","prior")
 	
 	obji <- object$beta_summary
-	a <- mlnormal_summary_round_helper(obji, digits=digits, exclude = excl, print=TRUE)
+	mlnormal_summary_round_helper(obji, digits=digits, exclude = excl, print=TRUE)
 
     cat("-----------------------------------------------------------------\n")
 	cat("Theta Parameters\n")
 	obji <- object$theta_summary
-	a <- mlnormal_summary_round_helper(obji, digits=digits, exclude = excl , print=TRUE)
+	mlnormal_summary_round_helper(obji, digits=digits, exclude = excl , print=TRUE)
 	
 	# close sink
     CDM::csink( file = file )		

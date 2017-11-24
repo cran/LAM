@@ -1,3 +1,5 @@
+## File Name: logLik.mlnormal.R
+## File Version: 0.02
 
 logLik.mlnormal <- function (object, ...) {
     # extract log-likelihood
