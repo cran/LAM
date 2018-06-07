@@ -6,6 +6,11 @@ If you use `LAM` and have suggestions for improvement or have found bugs, please
 
 #### CRAN version
 
+<!---
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/LAM)](https://cran.r-project.org/package=LAM)
+&#160;&#160;
+-->
+
 The official version of `LAM` is hosted on CRAN and may be found [here](https://cran.r-project.org/package=LAM). 
 The CRAN version can be installed from within R using:
 
