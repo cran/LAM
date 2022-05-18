@@ -1,8 +1,8 @@
 Package: LAM
 Type: Package
 Title: Some Latent Variable Models
-Version: 0.5-15
-Date: 2020-05-09 11:21:04
+Version: 0.6-19
+Date: 2022-05-17 14:14:12
 Author: Alexander Robitzsch [aut,cre]
 Maintainer: Alexander Robitzsch <robitzsch@ipn.uni-kiel.de>
 Description: 
@@ -16,13 +16,13 @@ Description:
     2014; <doi:10.1093/aje/kwt245>).
 Depends: R (>= 3.1)
 Imports: CDM, graphics, Rcpp, sirt, stats, utils
-Suggests: coda, expm, MASS, numDeriv, STARTS, TAM
+Suggests: coda, expm, MASS, numDeriv, TAM
 Enhances: lavaan, lme4
 LinkingTo: Rcpp, RcppArmadillo
 URL: https://github.com/alexanderrobitzsch/LAM,
         https://sites.google.com/site/alexanderrobitzsch2/software
 License: GPL (>= 2)
 NeedsCompilation: yes
-Packaged: 2020-05-09 09:22:54 UTC; sunpn563
+Packaged: 2022-05-17 12:15:23 UTC; sunpn563
 Repository: CRAN
-Date/Publication: 2020-05-09 10:00:02 UTC
+Date/Publication: 2022-05-18 13:40:10 UTC
