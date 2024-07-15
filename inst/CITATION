@@ -18,15 +18,16 @@ person_list2 <- "Robitzsch, A."
 
 citHeader( paste0( "To cite the '", pkg , "' package in publications use:") )
 
-citEntry(entry="Manual",
+bibentry(bibtype="Manual",
          title = paste0( pkg , ": " , pkg_title ) ,
-         author = personList( person_list1 ),
+         author = c( person_list1 ),
          year = year,
          note = vers,
          url =  paste0( "https://CRAN.R-project.org/package=", pkg) ,
          textVersion =
          paste0( person_list2 , " (",   year, "). " , 
                pkg , ": " , pkg_title , ". ",
-               vers, paste0( ". https://CRAN.R-project.org/package=", pkg) )
+               vers, paste0( ". https://CRAN.R-project.org/package=", pkg) ),
+   doi = paste0( "10.32614/CRAN.package.", pkg )
     )
 

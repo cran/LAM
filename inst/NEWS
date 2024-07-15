@@ -31,6 +31,15 @@ and (if necessary) a corresponding dataset.
 
 
 ------------------------------------------------------------------------
+VERSIONS LAM 0.7  |  2024-07-15  |  Last: LAM 0.7-22
+------------------------------------------------------------------------
+
+NOTE  * fixed CRAN warning with Rd \link{} targets missing package anchors
+
+DATA  * included/modified datasets: ---
+EXAMP * included/modified examples: ---
+
+------------------------------------------------------------------------
 VERSIONS LAM 0.6  |  2022-05-17  |  Last: LAM 0.6-19
 ------------------------------------------------------------------------
 
